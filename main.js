@@ -302,7 +302,13 @@ if ((month === 12 && day >= 22) || (month === 1 && day <= 19)) {
     audio.src='audios/occamy.mp3';
     audio.play();
   }
- 
+
+  else{
+    title.innerHTML='OOPS!';
+    img.src='images/error.png';
+    sign.innerHTML = 'Try Again!';
+    desc.innerHTML="Invalid Input, please select a valid date.";
+  }
 });
 
 
