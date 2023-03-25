@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+    /*:root {
+      color palette
+  
+    } */
+
+    @font-face {
+      font-family: 'Quicksand-Regular';
+      src: url('../fonts/Quicksand-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+  
+    @font-face {
+      font-family: 'Champagne & Limousines';
+      src: url('../fonts/Champagne & Limousines.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+  
+    @font-face {
+      font-family: 'GreatVibes-Regular';
+      src: url('../fonts/GreatVibes-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    
+  
+    .web_background{
+      background-image: url('../images/home.png');
+      padding: 2px;
+      top:0px;
+      left:0px;
+      z-index: -3;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+    
+  }
+  
+  body{
+    font-family:'Champagne & Limousines';
+    font-weight: bolder;
+    background-color: #000000;
+  }
+
+  .header img{
+    float: left;
+    margin-top: 5px;
+    width: 150px;
+    height: 100px;
+    border-radius: 40px;
+  }
+
+  .header h1{
+    position:relative;
+    font-family: 'GreatVibes-Regular','Gill Sans','Trebuchet MS';
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+
+ .intro{
+
+     margin-top: 35px;
+     margin-left: 20px;
+     padding-left: 20px;
+     margin-bottom: 15px;
+     color: rgb(0, 0, 0);
+     font-family: 'Champagne & Limousines';
+     font-size: 30px;
+     text-align: left;
+     font-weight: bolder;
+
+ }
+
+ h2{
+  font-family: 'Champagne & Limousines';
+  font-size: 30px;
+  color: #000000;
+ }
+
+ h3{
+  font-family: 'Champagne & Limousines';
+  font-size: 25px;
+  color: #000000;
+ }
+
+
+ p{
+  font-family: 'Quicksand-Regular';
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+
+
+ .header{
+  position: relative;
+    top: 0;
+    width: 100%;
+    background-color: #8c5b5b;
+    border-radius: 18px;
+ }
+
+
+
+.help_box{
+  margin-left: 23rem;
+  padding: 1em;
+  height: 300px;
+  width: 700px;
+  border-radius: 12px;
+}
+
+
+
+.help_content{
+  margin-top: 50px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.help_heading{
+  margin-top: 5px;
+  margin-left: 16px;
+}
+
+
+/**
+ .help_button{
+  float: right;
+ background-image: linear-gradient(to bottom right, #E1BEE7, #B2EBF2);;
+ border-radius: 10px;
+ margin: 30px 30px 10px 10px;
+ padding:10px;
+ display: block;
+ cursor: pointer;
+ box-shadow: 0 0 20px #000000;
+ border: none;
+ }
+ **/
+
+ .help_button{
+  float: right;
+  background-image: linear-gradient(to right, #a9cbe4 0%, #c88484  51%, #aacadf  100%);
+  margin: 30px 30px 10px 10px;
+  padding: 10px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+ }
+
+
+ .help_image{
+  border-radius: 12px;
+  height: 25px;
+  width: 25px;
+}
+
+
+
+.bday_input{
+  display: flex;
+  margin: 15px;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input{
+  background-color: rgb(160, 106, 106);
+  border: none;
+  border-radius:5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 20px #eee;
+}
+
+label{
+  background-color: #000000;
+  font-family:'Champagne & Limousines';
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  color:rgb(255, 255, 255);
+}
+
+
+
+
+.help_close{
+  float: right;
+  background-image: linear-gradient(to right, #a9cbe4 0%, #c88484  51%, #aacadf  100%);
+  margin: 30px 30px 10px 10px;
+  font-size: 18px;
+  padding: 10px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+
+.submit{
+    background-image: linear-gradient(to right, #89aac0 0%, #9383d0  51%, #86adc7  100%);
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+  }
+
+
+  .submit:hover, .help_button:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+/** zodiac buttons**/
+
+
+
+.all_buttons{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 100px;
+}
+
+.all_buttons button{
+  width: 200px;
+  height: 120px;
+  cursor: pointer;
+  background-color: #000000;
+  /**
+  background-color: transparent;
+  **/
+  border: none;
+  border-radius: 20%;
+  text-align: center;
+
+}
+
+.all_buttons button:hover {
+  box-shadow: 0px 10px 10px rgb(0, 0, 0);
+
+}
+
+.all_buttons img{
+  width: 200px;
+  height: 120px;
+
+  border-radius: 20%;
+}
+
+.creature_box{
+  display: none;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000008d;
+  overflow:auto;
+  text-align: center;
+  transition: transform 300ms ease-in-out;
+}
+
+.creature_content{
+  z-index: 1000;
+  border-radius:16px;
+  width: 900px;
+  height:600px;
+  background-color: #b68a8a;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 200ms ease-in-out;
+  padding: 50px;
+  color: #ffffff;
+  transition: transform 300ms ease-in-out;
+}
+
+
+.creature_name{
+  margin-top:75px;
+  color: white;
+}
+
+.creature_sign, .creature_desc{
+  color: white;
+}
+
+.creature_image_div{
+  width: 300px;
+  height: 190px;
+  background-color: transparent;
+  border: none;
+  border-radius:15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.creature_box img{
+  margin-top: 55px;
+  width: 300px;
+  height: 190px;
+  border-radius: 15px;
+
+}
+
+.creature_box h2, h3, p{
+padding: 10px 30px 10px 30px;
+}
+
+
+.creature_close{
+  float: right;
+  background-image: linear-gradient(to right, #98c1de 0%, #a36262  51%, #bdaadf  100%);
+  margin: 15px 5px 10px 10px;
+  font-size: 24px;
+  padding: 5px 10px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+}
